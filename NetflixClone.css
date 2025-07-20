@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.link[rel="icon"] {
+    border-radius: 50%;
+}
+
+.background-color {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_large.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.navbar-toggler {
+    border-width: 0px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.background {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vh;
+    padding-top: 25px;
+}
+
+.logo-container {
+    width: 25%;
+    margin-right: 20px;
+    min-width: 80px;
+    max-width: 148px;
+}
+
+.netflix-logo {
+    height: auto;
+    width: 100%;
+    max-width: 100px;
+    fill: rgb(229, 9, 20);
+}
+
+.Signup-Button {
+    min-height: 20px;
+    min-width: 40px;
+    max-width: 65px;
+    width: auto;
+    padding: 0.4em 0.6em;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.Lang-Button {
+    min-height: 20px;
+    min-width: 35px;
+    max-width: 105px;
+    padding: 0.4em 0.6em;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: calc(14px + 0.2vw);
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Image-style {
+    height: 400px;
+    width: auto;
+    border-radius: 5px;
+    filter: brightness(1);
+    filter: blur(10%);
+    box-shadow: 8px 8px 8px 8px black inset;
+}
+
+.Down-Logo {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.Signup-Button-Get-Start {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(229, 9, 20);
+    border-width: 0px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.Card {
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.Input-Email {
+    background-color: #00000044;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 3px;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+.Input-Email:focus {
+    background-color: #00000044;
+    color: #fff;
+}
+
+.Tag-Head {
+    font-family: "Segoe UI";
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.Tag-Sub {
+    font-family: "Segoe UI";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.Line {
+    background-color: #232323;
+    width: 100%;
+    border-width: 10px;
+}
+
+.background-section2 {
+    background-color: black;
+    max-width: 100%;
+}
+
+.Section2-Head {
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.Section2-Sub {
+    color: #fff;
+    font-family: "Segoe UI";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.Query-section {
+    background-color: #2d2d2d;
+    height: 75px;
+    width: 85%;
+}
+
+.Query-section:hover {
+    background-color: #414141;
+}
+
+.Query-section-querys {
+    font-size: 20px;
+    color: #fff;
+}
+
+.content-query {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Query-Logo {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.Buttom-section-tags {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Buttom-section-tags:hover {
+    color: #fff;
+}
+
+.Buttom-section-tags-head {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Buttom-section-tags-head:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Netflix-India {
+    color: #fff;
+    font-size: 14px;
+}
+
+.Contact-Number {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.Contact-Number:hover {
+    color: #fff;
+}
+
+.Video1 {
+    height: 200px;
+    width: 100%;
+}
